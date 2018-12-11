@@ -17,6 +17,9 @@ class App extends Component {
           <HeaderBeneran className="HeaderBeneran"></HeaderBeneran>
           <Produk></Produk>
         </header>
+        <body>
+          <div>test</div>
+        </body>
       </div>
     );
   }
@@ -66,4 +69,11 @@ liburan ini saya juga masih mau cari jawabannya mas, kalau ndak
 ketemu yaa saya tanya mas lagi m(_ _)m
 
 Sama saya mohon maaf mas belum bisa mengerjakan soalnya m(_ _)m
+
+oiyaaaa, sama ini mas, kalau di App.js kita tambah <body> lalu <div> baru, browser kok bilang,
+index.js:1452 Warning: validateDOMNesting(...): <body> cannot appear as a child of <div>.
+    in body (at App.js:20)
+    in div (at App.js:13)
+    in App (at src/index.js:7)
+ini kenapa yaa mas?
 */
