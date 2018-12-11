@@ -64,4 +64,6 @@ the react app's web page?"
 Kalau mas baron ndak sibuk bisa tolong dibantu jawab mas? hehe,
 liburan ini saya juga masih mau cari jawabannya mas, kalau ndak 
 ketemu yaa saya tanya mas lagi m(_ _)m
+
+Sama saya mohon maaf mas belum bisa mengerjakan soalnya m(_ _)m
 */
