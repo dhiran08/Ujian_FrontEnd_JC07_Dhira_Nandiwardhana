@@ -1,0 +1,10 @@
+.HeaderBeneran {
+    color: white;
+    background-color: darkgreen;
+    font-size: 100px;
+
+}
+
+table, th, td {
+    padding-left: 50px;
+}

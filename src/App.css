@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 2s linear;
   height: 40vmin;
 }
 
@@ -22,11 +22,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */ 
+
+/*lucu yang bawah :'D*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: skewX(0deg);
+  }
+  to {
+    transform: skew(360deg);
+  }
+}
+
+/* masukkin css baru */
+
+.cssJam{
+  display: grid;
 }

@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Jam from './komponen_iseng/Jam.js';
+import HeaderBeneran from './component/HeaderBeneran.js';
+import Produk from './component/Produk.js';
+
+import cobaGambar1 from './komponen_iseng/gambar/Coba4_2.png';
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <img src={cobaGambar1} className="App-logo" alt="logo" />
+          <Jam className="cssJam"></Jam>
+          <HeaderBeneran className="HeaderBeneran"></HeaderBeneran>
+          <Produk></Produk>
         </header>
       </div>
     );
